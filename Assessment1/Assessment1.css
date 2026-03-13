@@ -1,0 +1,94 @@
+/* General Page Setup */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+    color: #333333;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #4361ee; /* Royal Blue */
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* The White Box for Inputs */
+.input-section {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Input Fields */
+input {
+    padding: 12px;
+    border: 2px solid #dddddd;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 150px; /* Base width for each input */
+}
+
+input:focus {
+    border-color: #4361ee;
+    outline: none;
+}
+
+/* Button Navigation Bar */
+.controls {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4361ee;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #3046bd;
+    transform: translateY(-2px);
+}
+
+/* The Area Where Students Appear */
+#displayArea {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Individual Student Cards */
+.student-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 6px solid #4361ee;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.student-card h3 {
+    margin-top: 0;
+    color: #4361ee;
+}
+
+.student-card p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
