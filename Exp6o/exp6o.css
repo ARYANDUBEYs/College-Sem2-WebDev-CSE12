@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+}
+
+.my_box{
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 60px;
+  background-color: rgb(1, 252, 168);
+  border-radius: 20px;
+
+}
+.input{
+    margin: 10px;
+    background-color: pink;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
