@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple JS Math</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f2f5;
+            margin: 0;
+        }
+
+        #results {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: auto;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id="results"></div>
+
+    <script>
+        let num1 = parseFloat(prompt("Enter the first number:"));
+        let num2 = parseFloat(prompt("Enter the second number:"));
+
+        let sum = num1 + num2;
+        let difference = num1 - num2;
+        let product = num1 * num2;
+
+        const displayArea = document.getElementById("results");
+
+        displayArea.innerHTML = 
+            "<h2>Math Results</h2>" +
+            "<p><strong>Sum:</strong> " + sum + "</p>" +
+            "<p><strong>Difference:</strong> " + difference + "</p>" +
+            "<p><strong>Product:</strong> " + product + "</p>";
+    </script>
+
+</body>
+</html>
