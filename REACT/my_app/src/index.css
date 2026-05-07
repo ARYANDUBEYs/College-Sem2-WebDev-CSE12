@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -108,45 +108,4 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
-} */
-.App {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #d1ffab;
-  min-height: 100vh;
-}
-
-h1 {
-  color: #333;
-  margin-bottom: 30px;
-}
-
-.card {
-  background: rgb(252, 247, 182);
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin: 10px;
-  width: 300px;
-  border-left: 5px solid #90f730; 
-  transition: transform 0.2s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card h2 {
-  margin-top: 0;
-  color: #4a90e2;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 5px 0;
-  color: #555;
-  font-size: 1.1rem;
 }
